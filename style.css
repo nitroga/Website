@@ -1,0 +1,77 @@
+*{
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: black;
+}   
+
+.navigation {
+    display: flex;
+    background-color: black;
+    border-right: 3px solid white;
+    width: 13%;
+    height: 100%;
+    flex-direction: column;  
+    position: fixed;
+    top: 0; 
+    left: 0;
+    transition-duration: 0.5s;
+    z-index: 1;
+}
+
+.adminnav {
+    display: flex;
+    background-color: black;
+    width: 13%;
+    flex-direction: column;  
+}
+.home {
+    font-size: 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+    width: 85%;
+    height: 60px;
+    transition-duration: 0.3s;
+    color: white;
+    margin: 7.5% 7.5% 7.5% 7.5%;
+    z-index: 2;
+}
+
+.home:hover {
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    width: 90%;
+    height: 65px;
+    font-size: 33px;
+    margin: 7.5% 5% 5% 5%;
+}
+
+.default {
+    font-size: 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+    width: 85%;
+    height: 45px;
+    transition-duration: 0.3s;
+    color: white;
+    margin: 5% 7.5% 5% 7.5%;    
+    z-index: 2;
+}
+
+.default:hover {
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    width: 90%;
+    height: 50px;
+    font-size: 33px;
+    margin: 5% 5% 5% 5%;
+}
+
+.OpenMenu {
+    width: 10%;
+    border: 2px solid white;
+    height: 45px;
+    background-color: black;
+    color: white;
+    z-index: 2;
+}
