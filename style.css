@@ -1,6 +1,8 @@
 *{
     font-family: "Trebuchet MS", sans-serif;
     background-color: black;
+    margin: 0;
+    padding: 0;
 }   
 
 .navigation {
@@ -74,4 +76,33 @@
     background-color: black;
     color: white;
     z-index: 2;
+}
+
+.main {
+    width: 86%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.updates {
+    display: flex;
+    width: 29%;
+    flex-direction: column;  
+}
+
+.update {
+    width: 86%;
+    height: 110px;
+    margin: 3%;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 1.2%;
+}
+
+.updateTitle {
+    font-size: 30px;
+    color: white;
+    margin-top: 3%;
 }
