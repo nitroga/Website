@@ -48,7 +48,7 @@ function openNav() {
 }
 
 function closeNav() {
-  document.getElementById("navigation").style.width = "13%";
-  document.getElementById("main").style.marginLeft = "13%";
+  document.getElementById("navigation").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
 }
 
