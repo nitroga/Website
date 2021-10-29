@@ -10,7 +10,7 @@
     background-color: black;
     border-bottom: 2px solid white;
     width: 100vw;
-    height: 13vh;
+    height: 11vh;
     position: fixed;
     z-index: 1;
     align-items: center;
@@ -24,12 +24,13 @@
     width: 13%;
     flex-direction: column;  
 }
+
 .home {
-    font-size: 30px;
+    font-size: 200%;
     border-radius: 15px;
     border: 2px solid white;
-    height: 9vh;
-    width: 20vw;
+    height: 8.5vh;
+    width: 18vw;
     transition-duration: 0.3s;
     color: white;   
     z-index: 2;
@@ -40,18 +41,18 @@
     background-color: white;
     border: 2px solid white;
     color: black;
-    width: 21vw;
-    height: 10vh;
+    width: 19vw;
+    height: 9vh;
     font-size: 33px;
     margin: 0;
 }
 
 .default {
-    font-size: 30px;
+    font-size: 2.5vw;
     border-radius: 15px;
     border: 2px solid white;
     width: 12vw;
-    height: 9vh;
+    height: 8.5vh;
     transition-duration: 0.3s;
     color: white;  
     z-index: 2;
@@ -63,7 +64,7 @@
     border: 2px solid white;
     color: black;
     width: 13vw;
-    height: 10vh;
+    height: 9vh;
     font-size: 33px;
     margin: 0;
 }
@@ -79,10 +80,10 @@
 
 .main {
     display: flex;
-    width: 86%;
+    width: 99%;
     height: 100%;
-    float: right;
     text-align: center;
+    border: 2px solid white;
 }
 
 .updates {
@@ -123,3 +124,23 @@
 .projectTitle {
     font-size: 30px;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 1vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #808080; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #676767; 
+  }
