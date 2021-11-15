@@ -85,27 +85,31 @@
   bottom: 0;
 }
 
-.updates {
-  width: 30vw;
-  height: 86vh;
+.updates, .shop, .projects {
+  display: flex;
+  width: 32vw;
+  height: 91vh;
   border: 2px solid white;
-  bottom: 1.5vh;
-  position: fixed;
+  bottom: 0;
+  flex-direction: column;
+  margin: 1vh; 
+  justify-content: flex-end;
 }
 
-.project {
-  width: 25%;
-  height: 550px;
+.update {
+  width: 32vw;
+  height: 19vh;
   border: 2px solid white;
-  flex-direction: row;
   border-radius: 15px;
-  margin: 1% 1% 1% 1%;
-  color: white;
-  padding: 1.2%;  
+  margin-bottom: 1vh;
+  margin-top: 1vh;  
 }
-
 .projectTitle {
   font-size: 30px;
+}
+
+.Title1 {
+  font-size: 4vh;
 }
 
 /* width */
