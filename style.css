@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navigation {
   display: flex;
   background-color: black;
@@ -18,11 +22,9 @@
   transition-duration: 0.5s;
 }
 
-.adminnav {
-  display: flex;
-  background-color: black;
-  width: 13%;
-  flex-direction: column;
+footer {
+  width: 99.8vw;
+  height: 10vh;
 }
 
 .home {
@@ -79,7 +81,7 @@
 .main {
   display: flex;
   width: 99.8vw;
-  height: 90vh;
+  height: 88vh;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -88,7 +90,7 @@
 .updates, .shop, .projects {
   display: flex;
   width: 32vw;
-  height: 91vh;
+  height: 88vh;
   border: 2px solid white;
   bottom: 0;
   flex-direction: column;
@@ -98,18 +100,86 @@
 
 .update {
   width: 32vw;
-  height: 19vh;
+  height: 17.5vh;
   border: 2px solid white;
   border-radius: 15px;
   margin-bottom: 1vh;
   margin-top: 1vh;  
 }
-.projectTitle {
-  font-size: 30px;
+
+.update1 {
+  width: 32vw;
+  height: 17.5vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-bottom: 3vh;
+  margin-top: 1vh;  
+}
+
+.shopRow {
+  display: flex;
+  flex-direction: row;
+  width: 32vw;
+  height: 19vh;
+}
+
+.shopRow1 {
+  display: flex;
+  flex-direction: row;
+  width: 32vw;
+  height: 19vh;
+  margin-bottom: 9.5vh;
+}
+
+.shopRow2 {
+  width: 32vw;
+  height: 19vh;
+}
+
+.smallShopItem {
+  width: 8.55vw;
+  height: 17.5vh;
+  border: 2px solid white;
+  margin: 0.5vw;
+  align-items: center;
+}
+
+.largeShopItem {
+  width: 28vw;
+  height: 17.5vh;
+  border: 2px solid white;
+  margin: 1vh;
+  margin-bottom: 3vh;
+}
+
+.tallShopItem {
+  width: 8.55vw;
+  height: 35vh;
+  border: 2px solid white;
+  margin: 1vh;
+}
+
+.longShopItem {
+  width: 18.5vw;
+  height: 35vh;
+  border: 2px solid white;
+  margin: 1vh;  
+}
+
+.longerShopItem {
+  width: 18.5vw;
+  height: 17.5vh;
+  border: 2px solid white;
+  margin: 1vh;  
 }
 
 .Title1 {
-  font-size: 4vh;
+  font-size: 4.5vh;
+}
+
+.underTitle {
+  font-size: 3vh;
+  animation: underTitle 15s infinite alternate;
 }
 
 /* width */
@@ -131,3 +201,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #676767;
 }
+
+@keyframes underTitle {
+  0% {color: white;}
+  20% {color: red;}
+  40% {color: orange;}
+  60% {color: green;}
+  80% {color: fuchsia;}
+  100% {color: lightblue;}
+}
+
