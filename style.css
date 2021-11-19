@@ -23,8 +23,14 @@ a {
 }
 
 footer {
-  width: 99.8vw;
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
   height: 10vh;
+  z-index: 1;
+  border: 2px solid white;
+  margin-top: 100vh;
 }
 
 .home {
@@ -78,16 +84,26 @@ footer {
   z-index: 2;
 }
 
+.menuButton {
+  border: 2px solid white;
+  width: 7vw;
+  height: 3vh;
+  position: fixed;
+  margin-top: 11.5vh;
+  border-radius: 15px;
+  text-align: center;
+}
+
 .main {
   display: flex;
   width: 99.8vw;
-  height: 88vh;
+  height: 87vh;
   text-align: center;
   position: fixed;
   bottom: 0;
 }
 
-.updates, .shop, .projects {
+.updates {
   display: flex;
   width: 32vw;
   height: 88vh;
@@ -98,8 +114,21 @@ footer {
   justify-content: flex-end;
 }
 
+.projects, .shop {
+  display: flex;
+  width: 29vw;
+  height: 88vh;
+  border: 2px solid white;
+  bottom: 0;
+  flex-direction: column;
+  margin: 1vh; 
+  margin-left: 4.5vh;
+  margin-right: 4.5vh;
+  justify-content: flex-end;
+}
+
 .update {
-  width: 32vw;
+  width: 31vw;
   height: 17.5vh;
   border: 2px solid white;
   border-radius: 15px;
@@ -108,8 +137,26 @@ footer {
 }
 
 .update1 {
-  width: 32vw;
+  width: 31vw;
   height: 17.5vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-bottom: 3vh;
+  margin-top: 1vh;  
+}
+
+.project {
+  width: 29vw;
+  height: 44vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-bottom: 1vh;
+  margin-top: 1vh;  
+}
+
+.project1 {
+  width: 29vw;
+  height: 44vh;
   border: 2px solid white;
   border-radius: 15px;
   margin-bottom: 3vh;
@@ -119,25 +166,25 @@ footer {
 .shopRow {
   display: flex;
   flex-direction: row;
-  width: 32vw;
+  width: 29vw;
   height: 19vh;
 }
 
 .shopRow1 {
   display: flex;
   flex-direction: row;
-  width: 32vw;
+  width: 29vw;
   height: 19vh;
   margin-bottom: 9.5vh;
 }
 
 .shopRow2 {
-  width: 32vw;
+  width: 29vw;
   height: 19vh;
 }
 
 .smallShopItem {
-  width: 8.55vw;
+  width: 8.5vw;
   height: 17.5vh;
   border: 2px solid white;
   margin: 0.5vw;
@@ -160,14 +207,14 @@ footer {
 }
 
 .longShopItem {
-  width: 18.5vw;
+  width: 18vw;
   height: 35vh;
   border: 2px solid white;
   margin: 1vh;  
 }
 
 .longerShopItem {
-  width: 18.5vw;
+  width: 18.6vw;
   height: 17.5vh;
   border: 2px solid white;
   margin: 1vh;  
@@ -180,6 +227,22 @@ footer {
 .underTitle {
   font-size: 3vh;
   animation: underTitle 15s infinite alternate;
+}
+
+.hidden {
+  display: none;
+}
+
+.height-zero {
+  height: 0;
+}
+
+.menuButton-top {
+  margin-top: 3vh;
+}
+
+.mainContent-height {
+  height: 97%;
 }
 
 /* width */

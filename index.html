@@ -8,7 +8,7 @@
     <title>Website</title>
   </head>
 
-  <body>
+  <body onscroll="scrollFunction()">
     <nav id="navigation" class="navigation">
       <!-- <a style="color: white;" href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a> -->
       <a href="profile.html">
@@ -18,7 +18,7 @@
         <button class="default">Projects</button>
       </a>
       <a href="index.html">
-        <button class="home">Home</button>
+        <button id="home" class="home">Home</button>
       </a>
       <a href="shop.html">
         <button class="default">Shop</button>
@@ -26,11 +26,26 @@
       <a href="forum.html">
         <button class="default">Forum</button>
       </a>
+      <button class="menuButton" onclick="toggleNav()">
+        Close
+      </button>
     </nav>
     <main class="main">
       <div class="projects">
+      <shop class="shopRow2">
+          <p class="Title1">Featured Projects</p>
+          <a class="underTitle" href="projects.html">More products here!</a>
+          </shop>
+          <div class="project">
 
-      </div>
+          </div>
+          <div class="project">
+
+          </div>
+          <div class="project1">
+
+          </div>
+        </div>
       <div class="updates">
         <p class="Title1">Updates</p>
         <div class="update">
@@ -72,12 +87,12 @@
         </div>
       </div>
     </main>
+    
+    <footer>
 
+    </footer>
     <!-- <span style="font-size:30px;cursor:pointer,color;" onclick="openNav()">&#9776; Open</span> -->
   </body>
-  <footer>
-    
-  </footer>
 
   <script src="script.js"></script>
 </html>

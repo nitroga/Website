@@ -41,14 +41,29 @@ var allowedKeys = {
     window.location.href = 'admin.html';
   }
 
+let menuIsOpen = true;
 
-function openNav() {
-  document.getElementById("navigation").style.width = "13%";
-  document.getElementById("main").style.marginLeft = "13%";
+function toggleNav() {
+
+  menuIsOpen = !menuIsOpen;
+
+  if (menuIsOpen) {
+    document.querySelector(".menuButton").innerHTML = "Close";
+  } else {
+    document.querySelector(".menuButton").innerHTML = "Menu";
+  }
+
+  document.querySelector("#navigation").classList.toggle("height-zero");
+
+  document.querySelector(".menuButton").classList.toggle("menuButton-top");
+
+  document.querySelector(".main").classList.toggle("mainContent-height");
+
+  let home = document.querySelector("#home");
+  home.classList.toggle("hidden");
+
+  let defaultElements = document.querySelectorAll(".default");
+  defaultElements.forEach(element => {
+    element.classList.toggle("hidden");
+  });
 }
-
-function closeNav() {
-  document.getElementById("navigation").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
-}
-
