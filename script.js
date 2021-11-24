@@ -10,7 +10,6 @@ var allowedKeys = {
   
   // the 'official' Konami Code sequence
   var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
-  
   // a variable to remember the 'position' the user has reached so far.
   var konamiCodePosition = 0;
   
@@ -57,7 +56,16 @@ function toggleNav() {
 
   document.querySelector(".menuButton").classList.toggle("menuButton-top");
 
+  if (document.URL.indexOf("index") > -1) {
   document.querySelector(".main").classList.toggle("mainContent-height");
+  document.querySelector(".shop").classList.toggle("mainContent-height");
+  document.querySelector(".updates").classList.toggle("mainContent-height");
+  document.querySelector(".projects").classList.toggle("mainContent-height");
+  }
+  
+  if (document.URL.indexOf("projects") > -1) {
+    document.querySelector(".main1").classList.toggle("mainContent-height");
+  }
 
   let home = document.querySelector("#home");
   home.classList.toggle("hidden");

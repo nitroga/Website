@@ -19,7 +19,7 @@ a {
   width: 100vw;
   height: 9vh;
   position: fixed;    
-  transition-duration: 0.5s;
+  transition-duration: 0.8s;
 }
 
 footer {
@@ -27,9 +27,9 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
-  height: 10vh;
+  height: 8vh;
   z-index: 1;
-  border: 2px solid white;
+  border-top: 5px solid white;
   margin-top: 100vh;
 }
 
@@ -92,6 +92,7 @@ footer {
   margin-top: 11.5vh;
   border-radius: 15px;
   text-align: center;
+  cursor: pointer;
 }
 
 .main {
@@ -103,11 +104,21 @@ footer {
   bottom: 0;
 }
 
+.main1 {
+  display: flex;
+  width: 99.8vw;
+  height: 87vh;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .updates {
   display: flex;
   width: 32vw;
   height: 88vh;
-  border: 2px solid white;
   bottom: 0;
   flex-direction: column;
   margin: 1vh; 
@@ -118,7 +129,6 @@ footer {
   display: flex;
   width: 29vw;
   height: 88vh;
-  border: 2px solid white;
   bottom: 0;
   flex-direction: column;
   margin: 1vh; 
@@ -129,7 +139,7 @@ footer {
 
 .update {
   width: 31vw;
-  height: 17.5vh;
+  height: 33vh;
   border: 2px solid white;
   border-radius: 15px;
   margin-bottom: 1vh;
@@ -138,7 +148,7 @@ footer {
 
 .update1 {
   width: 31vw;
-  height: 17.5vh;
+  height: 33vh;
   border: 2px solid white;
   border-radius: 15px;
   margin-bottom: 3vh;
@@ -218,6 +228,20 @@ footer {
   height: 17.5vh;
   border: 2px solid white;
   margin: 1vh;  
+}
+
+.projectRow {
+  width: 47vw;
+  height: 38vh;
+  border: 2px solid white;
+  margin: 2vh;
+}
+
+.projectRow1 {
+  width: 47vw;
+  height: 60vh;
+  border: 2px solid white;
+  margin: 2vh;
 }
 
 .Title1 {

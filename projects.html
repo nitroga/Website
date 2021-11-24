@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Projects</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Website</title>
+  </head>
+
+  <body onscroll="scrollFunction()">
     <nav id="navigation" class="navigation">
-		<a style="color: white;" href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
-		<a href="index.html">
-			<button class="home">Home</button>
-		</a>
-		<a href="profile.html">
-			<button class="default">Profile</button>
-		</a>
-		<a href="projects.html">
-			<button class="default">Projects</button>
-		</a>
-		<a href="shop.html">
-			<button class="default">Shop</button>
-		</a>
-		<a href="forum.html">
-			<button class="default">Forum</button>
-		</a>
-	</nav>
-	<div class="main">
-		<div class="project">
-			<b class="projectTitle">Project 1</b>
-			<img src="quack.png" alt="quack">
-			
+      <!-- <a style="color: white;" href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a> -->
+      <a href="profile.html">
+        <button class="default">Profile</button>
+      </a>
+      <a href="projects.html">
+        <button class="default">Projects</button>
+      </a>
+      <a href="index.html">
+        <button id="home" class="home">Home</button>
+      </a>
+      <a href="shop.html">
+        <button class="default">Shop</button>
+      </a>
+      <a href="forum.html">
+        <button class="default">Forum</button>
+      </a>
+      <button class="menuButton" onclick="toggleNav()">
+        Close
+      </button>
+    </nav>
+    <main class="main1">
+		<div class="projectRow">
+      <p class="Title1">Project 1</p>
 		</div>
-		<div class="project">
-			<b class="projectTitle">Project 2</b>
-			<img src="quack.png" alt="quack">
+		<div class="projectRow">
+      <p class="Title1">Project 3 </p>
 		</div>
-		<div class="project">
-			<b class="projectTitle">Project 3</b>
-			<img src="quack.png" alt="quack">
+		<div class="projectRow1">
+      <p class="Title1">Project 2</p>
 		</div>
-		<div class="project">
-			<b class="projectTitle">Project 4</b>
-			<img src="quack.png" alt="quack">
-		</div>
-	</div>
-</body>
+    </main>
+    
+    <footer>
+
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
 </html>
