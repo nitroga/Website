@@ -1,5 +1,6 @@
 * {
   font-family: "Trebuchet MS", sans-serif;
+  font-size: 3vh;
   background-color: black;
   color: white;
   margin: 0;
@@ -75,15 +76,6 @@ footer {
   margin: 0;
 }
 
-.OpenMenu {
-  width: 10%;
-  border: 2px solid white;
-  height: 45px;
-  background-color: black;
-  color: white;
-  z-index: 2;
-}
-
 .menuButton {
   border: 2px solid white;
   width: 7vw;
@@ -93,6 +85,7 @@ footer {
   border-radius: 15px;
   text-align: center;
   cursor: pointer;
+  font-size: 2.3vh;
 }
 
 .main {
@@ -107,7 +100,7 @@ footer {
 .main1 {
   display: flex;
   width: 99.8vw;
-  height: 87vh;
+  height: 88vh;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -193,6 +186,25 @@ footer {
   height: 19vh;
 }
 
+.projectBox {
+  display: flex;
+  width: 47vw;
+  height: 33vh;
+  flex-direction: row;
+}
+
+.projectInfo {
+  width: 26vw;
+  height: 30vh;
+  margin: 2vh;
+}
+
+.projectPic {
+  width: 16vw;
+  height: 30vh;
+  border: 2px solid white;
+}
+
 .smallShopItem {
   width: 8.5vw;
   height: 17.5vh;
@@ -232,14 +244,23 @@ footer {
 
 .projectRow {
   width: 47vw;
-  height: 38vh;
+  height: 39vh;
   border: 2px solid white;
   margin: 2vh;
 }
 
 .projectRow1 {
+  display: flex;
   width: 47vw;
   height: 60vh;
+  border: 2px solid white;
+  margin: 2vh;
+  flex-direction: column;
+}
+
+.projectLongPic {
+  width: 45vw;
+  height: 27vh;
   border: 2px solid white;
   margin: 2vh;
 }

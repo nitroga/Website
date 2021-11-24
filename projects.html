@@ -10,7 +10,6 @@
 
   <body onscroll="scrollFunction()">
     <nav id="navigation" class="navigation">
-      <!-- <a style="color: white;" href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a> -->
       <a href="profile.html">
         <button class="default">Profile</button>
       </a>
@@ -26,25 +25,38 @@
       <a href="forum.html">
         <button class="default">Forum</button>
       </a>
-      <button class="menuButton" onclick="toggleNav()">
-        Close
-      </button>
+      <button class="menuButton" onclick="toggleNav()">Close</button>
     </nav>
     <main class="main1">
-		<div class="projectRow">
-      <p class="Title1">Project 1</p>
-		</div>
-		<div class="projectRow">
-      <p class="Title1">Project 3 </p>
-		</div>
-		<div class="projectRow1">
-      <p class="Title1">Project 2</p>
-		</div>
-    </main>
-    
-    <footer>
+      <div class="projectRow">
+        <p class="Title1">Project 1</p>
+        <div class="projectBox">
+          <div class="projectInfo">
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="projectPic"></div>
+        </div>
+      </div>
 
-    </footer>
+      <div class="projectRow">
+        <p class="Title1">Project 1</p>
+        <div class="projectBox">
+          <div class="projectInfo">
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="projectPic"></div>
+        </div>
+      </div>
+      <div class="projectRow1">
+        <p class="Title1">Project 2</p>
+        <div class="projectInfo">
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="projectLongPic"></div>
+      </div>
+    </main>
+
+    <footer></footer>
   </body>
 
   <script src="script.js"></script>
