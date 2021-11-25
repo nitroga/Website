@@ -275,10 +275,11 @@ footer {
 }
 
 .shop1 {
+  display: flex;
   height: 85vh;
   width: 25vw;
-  border: 2px solid white;
   margin: 2vh;
+  flex-direction: column;
 }
 
 .shop2 {
@@ -291,7 +292,6 @@ footer {
 
 .shopTitle {
   height: 12vh;
-  width: 36.5vw;
   padding: 1.5vh;
 }
 
@@ -318,6 +318,25 @@ footer {
   margin: 2vh;
 }
 
+.shopSquare {
+  height: 22vw;
+  width: 22vw;
+  border: 2px solid white;
+  margin: 1.5vh;
+}
+
+.shopSmall {
+  height: 21vh;
+  width: 22vw;
+  border: 2px solid white;
+}
+
+.shopFeatured {
+  height: 5.5vh;
+  width: 22.5vw;
+  border: 2px solid white;
+}
+
 .Title1 {
   font-size: 4.5vh;
 }
@@ -330,6 +349,11 @@ footer {
 .underTitle {
   font-size: 3vh;
   animation: underTitle 15s infinite alternate;
+}
+
+.title3 {
+  font-size: 4.5vh;
+  animation: featuredItems 10s infinite alternate;
 }
 
 .hidden {
@@ -381,3 +405,8 @@ footer {
   100% {color: lightblue;}
 }
 
+@keyframes featuredItems {
+  0% {color: white;}
+  33% {color: mediumturquoise;}
+  66% {color: dodgerblue;}
+}
