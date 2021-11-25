@@ -351,6 +351,33 @@ footer {
   border: 2px solid white;
 }
 
+.preProfile {
+  display: flex;
+  height: 60vh;
+  width: 28vw;
+  border: 2px solid white;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+.profileInput {
+  height: 4vh;
+  width: 20vw;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 1.5vh;
+  text-align: center;
+}
+
+.submit {
+  height: 4vh;
+  width: 12vw;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 1.5vh;
+  cursor: pointer;
+}
+
 .Title1 {
   font-size: 4.5vh;
 }
