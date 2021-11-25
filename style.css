@@ -36,7 +36,7 @@ footer {
 
 .home {
   font-size: 5vh;
-  border-radius: 15px;
+  border-radius: 12px;
   border: 2px solid white;
   height: 7vh;
   width: 16vw;
@@ -57,7 +57,7 @@ footer {
 
 .default {
   font-size: 5vh;
-  border-radius: 15px;
+  border-radius: 12px;
   border: 2px solid white;
   width: 12vw;
   height: 7vh;
@@ -79,13 +79,13 @@ footer {
 .menuButton {
   border: 2px solid white;
   width: 7vw;
-  height: 3vh;
+  height: 3.6vh;
   position: fixed;
   margin-top: 11.5vh;
   border-radius: 15px;
   text-align: center;
   cursor: pointer;
-  font-size: 2.3vh;
+  font-size: 2.6vh;
 }
 
 .main {
@@ -198,7 +198,7 @@ footer {
 .projectBox {
   display: flex;
   width: 47vw;
-  height: 33vh;
+  height: 32vh;
   flex-direction: row;
 }
 
@@ -209,15 +209,17 @@ footer {
 }
 
 .projectPic {
-  width: 16vw;
+  width: 30vh;
   height: 30vh;
   border: 2px solid white;
+  border-radius: 15px;
 }
 
 .smallShopItem {
   width: 8.5vw;
   height: 17.5vh;
   border: 2px solid white;
+  border-radius: 12px;
   margin: 0.5vw;
   align-items: center;
 }
@@ -226,6 +228,7 @@ footer {
   width: 28vw;
   height: 17.5vh;
   border: 2px solid white;
+  border-radius: 12px;
   margin: 1vh;
   margin-bottom: 3vh;
 }
@@ -234,6 +237,7 @@ footer {
   width: 8.55vw;
   height: 35vh;
   border: 2px solid white;
+  border-radius: 12px;
   margin: 1vh;
 }
 
@@ -241,6 +245,7 @@ footer {
   width: 18vw;
   height: 35vh;
   border: 2px solid white;
+  border-radius: 12px;
   margin: 1vh;  
 }
 
@@ -248,14 +253,17 @@ footer {
   width: 18.6vw;
   height: 17.5vh;
   border: 2px solid white;
+  border-radius: 12px;
   margin: 1vh;  
 }
 
 .projectRow {
   width: 47vw;
-  height: 39vh;
+  height: 38vh;
   border: 2px solid white;
+  border-radius: 15px;
   margin: 2vh;
+  padding: 0.5vh;
 }
 
 .projectRow1 {
@@ -263,14 +271,17 @@ footer {
   width: 47vw;
   height: 60vh;
   border: 2px solid white;
+  border-radius: 15px;
   margin: 2vh;
   flex-direction: column;
+  padding: 0.7vh;
 }
 
 .projectLongPic {
   width: 45vw;
   height: 33vh;
   border: 2px solid white;
+  border-radius: 15px;
   margin: 2vh;
 }
 
@@ -315,6 +326,7 @@ footer {
   height: 30vh;
   width: 38vw;
   border: 2px solid white;
+  border-radius: 15px;
   margin: 2vh;
 }
 
@@ -322,6 +334,7 @@ footer {
   height: 22vw;
   width: 22vw;
   border: 2px solid white;
+  border-radius: 15px;
   margin: 1.5vh;
 }
 
@@ -329,6 +342,7 @@ footer {
   height: 21vh;
   width: 22vw;
   border: 2px solid white;
+  border-radius: 15px;
 }
 
 .shopFeatured {
