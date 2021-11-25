@@ -62,9 +62,13 @@ function toggleNav() {
   document.querySelector(".projects").classList.toggle("mainContent-height");
   }
   
-  else if (document.URL.indexOf("projects") > -1 || document.URL.indexOf("shop") > -1) {
+  else if (document.URL.indexOf("projects") > -1) {
     document.querySelector(".main1").classList.toggle("mainContent-height");
   }  
+
+  else if (document.URL.indexOf("shop") > -1) {
+    document.querySelector(".main2").classList.toggle("mainContent-height")
+  }
 
   let home = document.querySelector("#home");
   home.classList.toggle("hidden");

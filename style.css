@@ -108,6 +108,15 @@ footer {
   flex-wrap: wrap;
 }
 
+.main2 {
+  display: flex;
+  width: 99.8vw;
+  height: 88vh;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
 .updates {
   display: flex;
   width: 32vw;
@@ -265,8 +274,57 @@ footer {
   margin: 2vh;
 }
 
+.shop1 {
+  height: 85vh;
+  width: 25vw;
+  border: 2px solid white;
+  margin: 2vh;
+}
+
+.shop2 {
+  display: flex;
+  height: 85vh;
+  width: 40vw;
+  margin: 2vh;
+  flex-direction: column;
+}
+
+.shopTitle {
+  height: 12vh;
+  width: 36.5vw;
+  padding: 1.5vh;
+}
+
+.shopSearch {
+  height: 5vh;
+  width: 36vw;
+  border: 2px solid white;
+  text-align: center;
+  
+}
+
+.shopSearchButton {
+  transform: translate(-15vw, -5vh);
+  height: 5vh;
+  width: 6vw;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.shopLong {
+  height: 30vh;
+  width: 38vw;
+  border: 2px solid white;
+  margin: 2vh;
+}
+
 .Title1 {
   font-size: 4.5vh;
+}
+
+.title2 {
+  transform: translate(0, -2vh);
+  font-size: 5.5vh;
 }
 
 .underTitle {
@@ -308,6 +366,10 @@ footer {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #676767;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.781);
 }
 
 @keyframes underTitle {
