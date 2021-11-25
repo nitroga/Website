@@ -43,9 +43,6 @@ var allowedKeys = {
 let menuIsOpen = true;
 
 function toggleNav() {
-
-  window.alert("lol");
-
   menuIsOpen = !menuIsOpen;
 
   if (menuIsOpen) {
