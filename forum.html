@@ -5,31 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Q&A</title>
+    <title>Forum</title>
 </head>
 <body>
-	<nav id="navigation" class="navigation">
-		<a style="color: white;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="index.html">
-			<button class="home">Home</button>
-		</a>
-		<a href="profile.html">
-			<button class="default">Profile</button>
-		</a>
-		<a href="projects.html">
-			<button class="default">Projects</button>
-		</a>
-		<a href="shop.html">
-			<button class="default">Shop</button>
-		</a>
-		<a href="forum.html">
-			<button class="default">Forum</button>
-		</a>
-	</nav>
-	<div class="main">
-		<div class="OpenMenu">
-		<span style="font-size:30px;cursor:pointer,color;" onclick="openNav()">&#9776; Open</span>
-		</div>
-	</div>
-</body>
+    <nav id="navigation" class="navigation">
+      <a href="profile.html">
+        <button class="default">Profile</button>
+      </a>
+      <a href="projects.html">
+        <button class="default">Projects</button>
+      </a>
+      <a href="index.html">
+        <button id="home" class="home">Home</button>
+      </a>
+      <a href="shop.html">
+        <button class="default">Shop</button>
+      </a>
+      <a href="forum.html">
+        <button class="default">Forum</button>
+      </a>
+      <button class="menuButton" onclick="toggleNav()">Close</button>
+    </nav>
+    <main class="main1">
+		<div class="logIn">
+			<p class="Title1">Log In</p>
+			<form> 
+			  <input class="profileInput" type="text" placeholder="Username or Email" required>
+			  <input class="profileInput" type="password" placeholder="Password" required>
+			  <input class="submit" type="submit" placeholder="Log In">
+			  <button class="changeForm" onclick="changeForm()"><p>Don't have an account?</p><p>Click here to Sign Up</p></button>
+			</form>
+		  </div>
+		  <div class="signUp">
+			<p class="Title1">Sign Up</p>
+			<form> 
+			  <input class="profileInput" type="text" placeholder="Username" minlength="2" maxlength="18" required>
+			  <input class="profileInput" type="email" placeholder="Email" required>
+			  <input class="profileInput" type="password" placeholder="Password" required>
+			  <input class="profileInput" type="date" required>
+			  <input class="submit" type="submit"></form>
+			  <button class="changeForm" onclick="changeForm()"><p>Already have an account?</p><p>Click here to Log In</p></button>
+		  </div>
+    </main>
+
+    <footer>
+      
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
 </html>

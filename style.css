@@ -351,13 +351,34 @@ footer {
   border: 2px solid white;
 }
 
-.preProfile {
+.signUp {
   display: flex;
-  height: 60vh;
+  height: 55vh;
   width: 28vw;
   border: 2px solid white;
   border-radius: 15px;
   flex-direction: column;
+}
+
+.logIn {
+  display: none;
+  height: 40vh;
+  width: 28vw;
+  border: 2px solid white;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+.changeForm{
+  height: 4vh;
+  width: 18vw;
+  border: 2px  white;
+  border-radius: 6.5px;
+  cursor: pointer;
+}
+
+.changeForm p {
+  font-size: 2.3vh;
 }
 
 .profileInput {
@@ -399,6 +420,10 @@ footer {
 
 .hidden {
   display: none;
+}
+
+.visible {
+  display: flex;
 }
 
 .height-zero {

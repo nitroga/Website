@@ -27,15 +27,25 @@
       <button class="menuButton" onclick="toggleNav()">Close</button>
     </nav>
     <main class="main1">
-		<div class="preProfile">
-			<p class="Title1">Sign Up</p>
-			<form> 
-				<input class="profileInput" type="text" placeholder="Username" minlength="2" maxlength="18" required>
-				<input class="profileInput" type="email" placeholder="Email" required>
-				<input class="profileInput" type="password" placeholder="Password" required>
-				<input class="profileInput" type="date" required>
-				<input class="submit" type="submit"></form>
-		</div>
+      <div class="logIn">
+        <p class="Title1">Log In</p>
+        <form> 
+          <input class="profileInput" type="text" placeholder="Username or Email" required>
+          <input class="profileInput" type="password" placeholder="Password" required>
+          <input class="submit" type="submit" placeholder="Log In">
+          <button class="changeForm" onclick="changeForm()"><p>Don't have an account?</p><p>Click here to Sign Up</p></button>
+        </form>
+      </div>
+      <div class="signUp">
+        <p class="Title1">Sign Up</p>
+        <form> 
+          <input class="profileInput" type="text" placeholder="Username" minlength="2" maxlength="18" required>
+          <input class="profileInput" type="email" placeholder="Email" required>
+          <input class="profileInput" type="password" placeholder="Password" required>
+          <div><select class="profileInput"><option>bruh</option></select></div>
+          <input class="submit" type="submit"></form>
+          <button class="changeForm" onclick="changeForm()"><p>Already have an account?</p><p>Click here to Log In</p></button>
+      </div>
     </main>
 
     <footer>

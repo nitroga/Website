@@ -78,3 +78,8 @@ function toggleNav() {
     element.classList.toggle("hidden");
   });
 }
+
+function changeForm() {
+  document.querySelector(".signUp").classList.toggle("hidden");
+  document.querySelector(".logIn").classList.toggle("visible");
+}
