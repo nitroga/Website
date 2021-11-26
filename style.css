@@ -353,8 +353,8 @@ footer {
 
 .signUp {
   display: flex;
-  height: 55vh;
-  width: 28vw;
+  height: 72vh;
+  width: 25vw;
   border: 2px solid white;
   border-radius: 15px;
   flex-direction: column;
@@ -363,7 +363,7 @@ footer {
 .logIn {
   display: none;
   height: 40vh;
-  width: 28vw;
+  width: 25vw;
   border: 2px solid white;
   border-radius: 15px;
   flex-direction: column;
@@ -375,6 +375,7 @@ footer {
   border: 2px  white;
   border-radius: 6.5px;
   cursor: pointer;
+  margin: 1vh;
 }
 
 .changeForm p {
@@ -388,6 +389,12 @@ footer {
   border-radius: 8px;
   margin: 1.5vh;
   text-align: center;
+}
+
+.tosAccept {
+  transform: translate(0,0.3vh);
+  height: 3vh;
+  width: 3vh;
 }
 
 .submit {

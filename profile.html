@@ -42,8 +42,18 @@
           <input class="profileInput" type="text" placeholder="Username" minlength="2" maxlength="18" required>
           <input class="profileInput" type="email" placeholder="Email" required>
           <input class="profileInput" type="password" placeholder="Password" required>
-          <div><select class="profileInput"><option>bruh</option></select></div>
+          <u>Gender</u>
+          <div><select class="profileInput">
+            <option>Prefer not to say</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select></div>
+          <u>Date of Birth</u>
+          <input class="profileInput" type="date">
           <input class="submit" type="submit"></form>
+          <p>I have read the Terms of Service
+            <input class="tosAccept" type="checkbox">
+          </p>
           <button class="changeForm" onclick="changeForm()"><p>Already have an account?</p><p>Click here to Log In</p></button>
       </div>
     </main>
